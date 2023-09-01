@@ -1,0 +1,152 @@
+.headerBtn {
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.headerBtn:hover {
+    background-color: #ffffff;
+    color: #020230 !important;
+    border: #020230;
+}
+.card {border-radius: 10px;
+    border: 1px solid #000000;
+
+}
+.card:hover{ background-color: #3700ff;
+    color: #ffffff !important;
+    border:  #020230;
+
+
+}
+
+.headerBtnc {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: #ffffff;
+    color: black !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+  }
+
+   @-webkit-keyframes glowing {
+    0% { background-color:#00ffea ; -webkit-box-shadow: 0 0 3px #00ffea; }
+    50% { background-color: #00ffea; -webkit-box-shadow: 0 0 40px #00ffea; }
+    100% { background-color: #00ffea; -webkit-box-shadow: 0 0 3px #00ffea; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: #00ffea; -moz-box-shadow: 0 0 3px #00ffea; }
+    50% { background-color: #00ffea; -moz-box-shadow: 0 0 40px #00ffea; }
+    100% { background-color: #00ffea; -moz-box-shadow: 0 0 3px #00ffea; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: #00ffea; box-shadow: 0 0 3px #00ffea; }
+    50% { background-color: #00ffea; box-shadow: 0 0 40px #00ffea; }
+    100% { background-color: #00ffea; box-shadow: 0 0 3px #00ffea; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: #00ffea; box-shadow: 0 0 3px #00ffea; }
+    50% { background-color: #00ffea; box-shadow: 0 0 40px #00ffea; }
+    100% { background-color: #00ffea; box-shadow: 0 0 3px #00ffea; }
+  }  
+
+
+   /* @-webkit-keyframes glowing {
+    0% { background-color: #05057a; -webkit-box-shadow: 0 0 3px #05057a; }
+    50% { background-color:  #0a0af4; -webkit-box-shadow: 0 0 40px #0a0af4; }
+    100% { background-color:  #8484f9 ; -webkit-box-shadow: 0 0 3px  #8484f9 ; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: #05057a; -moz-box-shadow: 0 0 3px #05057a; }
+    50% { background-color: #0a0af4; -moz-box-shadow: 0 0 40px #0a0af4; }
+    100% { background-color:  #8484f9 ; -moz-box-shadow: 0 0 3px  #8484f9 ; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: #05057a; box-shadow: 0 0 3px #05057a; }
+    50% { background-color: #0a0af4; box-shadow: 0 0 40px #0a0af4; }
+    100% { background-color:  #8484f9 ; box-shadow: 0 0 3px  #8484f9 ; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: #05057a; box-shadow: 0 0 3px #05057a; }
+    50% { background-color: #0a0af4; box-shadow: 0 0 40px #0a0af4; }
+    100% { background-color:  #8484f9 ; box-shadow: 0 0 3px  #8484f9 ; }
+  }  */
+  
+  /* .headerBtnc {
+    width: 110px;
+    height: 35px;
+    border: 1px solid;
+    outline: none;
+    color: #fff;
+    background: #020230;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.headerBtnc:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.headerBtnc:active {
+    color: #020230
+}
+
+.headerBtnc:active:after {
+    background: transparent;
+}
+
+.headerBtnc:hover:before {
+    opacity: 1;
+}
+
+
+.headerBtnc:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #020230;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}  */
+
